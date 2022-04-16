@@ -1,0 +1,240 @@
+:root {
+    --maincolor: #fff;
+    --headcolor: #212121;
+    --logocolor: #000;
+    --textcolorone: #757575;
+    --activecolor: #2196F3;
+    --bgcolorone: #2F303A;
+    --bgcolortwo: #F5F4FA;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--maincolor);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--maincolor);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+.header {
+
+}
+.logo {
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--activecolor);
+text-decoration: none;
+}
+.logotwo {
+    color: var(--logocolor);
+}
+.activepage {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--activecolor);
+    text-decoration: none;
+}
+.passivepage {
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--headcolor);
+        text-decoration: none;
+}
+.headermail,
+.headerphone {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--textcolorone)
+}
+.headermail:hover,
+.headerphone:hover, .headermail:focus,
+.headerphone:focus {
+    color: var(--activecolor);
+}
+.footer {
+    background-color: var(--bgcolorone);
+}
+.logothree {
+    color: var(--maincolor);
+}
+.address {
+    line-height: 1.71;
+    color: var(--maincolor);
+    font-style: normal;
+}
+.footermail, 
+.footerphone {
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--maincolor);
+    opacity: 0.6;
+}
+.footermail:hover,
+.footerphone:hover, 
+.footermail:focus,
+.footerphone:focus {
+    color: var(--activecolor);
+}
+.mainsection {
+    background-color: var(--bgcolorone);
+}
+.head {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--maincolor);
+}
+.buttonone {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--activecolor);
+    color: var(--maincolor);
+}
+.details {
+
+}
+.detailslist {
+
+}
+.detailsitem {
+
+}
+.detailshead {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--headcolor);
+    font-size: 14px;
+}
+.detailstext {
+    line-height: 1.71;
+    color: var(--textcolorone);
+}
+.ourwork {
+
+}
+.workhead {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: var(--headcolor);
+}
+.team {
+    background-color: var(--bgcolortwo);
+
+}
+.teamhead{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--headcolor);
+}
+.teamlist{
+
+}
+.teamitem{
+    background-color: var(--maincolor);
+
+}
+.name{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--headcolor);
+
+
+}
+.profession{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--textcolorone);
+}
+.portoliobtn{
+
+}
+.activepbtn{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--maincolor);
+    background-color: var(--activecolor);
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: none;
+
+}
+.passivepbtn{
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--headcolor);
+        background-color: var(--bgcolortwo);
+        padding: 6px 22px;
+        border-radius: 4px;
+        border: none;
+
+}
+.activepbtn:hover,.passivepbtn:hover,.passivepbtn:focus, .activepbtn:focus{
+    background-color: var(--activecolor);
+    color: var(--maincolor);
+
+}
+.portfolioall{
+
+}
+.portfolioallitem{
+
+}
+.allitemmenu{
+    text-decoration: none;
+}
+.allhead{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--headcolor);
+
+}
+.alltext{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--textcolorone);
+
+}
