@@ -4,8 +4,11 @@
     --logocolor: #000;
     --textcolorone: #757575;
     --activecolor: #2196F3;
+    --activebtn:#188CE8;
     --bgcolorone: #2F303A;
     --bgcolortwo: #F5F4FA;
+    --border-color:#ECECEC;
+    --border-color-two: #EEEEEE;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -21,8 +24,50 @@ a{
     text-decoration: none;
     font-style: normal;
 }
-.header {
+h1, h2, h3, h4, h5, h6, ul, p{
+    padding: 0;
+    margin: 0;
 
+}
+button{
+    cursor: pointer;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.list{
+    display: flex;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*------------------------HEADER-----------*/
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+}
+.header-content {
+    align-items: center;
+    height: 80px;
 }
 .logo {
     font-family: 'Raleway';
@@ -31,6 +76,14 @@ font-size: 26px;
 line-height: 1.19;
 color: var(--activecolor);
 text-decoration: none;
+margin-right: 93px;
+}
+.headernav {
+    align-items: center;
+    margin: auto;
+}
+.headernavitem{
+    margin-right: 50px;
 }
 .logotwo {
     color: var(--logocolor);
@@ -49,6 +102,10 @@ text-decoration: none;
         color: var(--headcolor);
         text-decoration: none;
 }
+.headercontactlist{
+    margin-left: 331px;
+    margin: auto;
+}
 .headermail,
 .headerphone {
     font-weight: 500;
@@ -56,21 +113,38 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--textcolorone)
 }
+.headermail{
+    margin-right: 50px;
+}
 .headermail:hover,
 .headerphone:hover, .headermail:focus,
 .headerphone:focus {
     color: var(--activecolor);
 }
+
+/*-----------------------FOOTER----------------------*/
+
 .footer {
     background-color: var(--bgcolorone);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logothree {
     color: var(--maincolor);
+
+}
+.footerlogo{
+    
 }
 .address {
     line-height: 1.71;
     color: var(--maincolor);
     font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+.footermailitem{
+    margin-bottom: 9px;
 }
 .footermail, 
 .footerphone {
@@ -85,8 +159,14 @@ text-decoration: none;
 .footerphone:focus {
     color: var(--activecolor);
 }
+
+/*-----------------------------MAIN SEECTION---------------*/
+
 .mainsection {
     background-color: var(--bgcolorone);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
 }
 .head {
     font-weight: 900;
@@ -96,6 +176,7 @@ text-decoration: none;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--maincolor);
+    margin-bottom: 30px;
 }
 .buttonone {
     font-family: 'Roboto';
@@ -108,15 +189,31 @@ text-decoration: none;
     letter-spacing: 0.06em;
     background-color: var(--activecolor);
     color: var(--maincolor);
+    padding: 10px 32px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
+.buttonone:hover,
+.buttonone:focus{
+background-color: var(--activebtn);
+}
+
+/*-----------------------DETAILS-------------------------*/
+
 .details {
+
 
 }
 .detailslist {
 
 }
 .detailsitem {
+    margin-right: 30px;
 
+}
+.detailsitemlast{
+    margin-right: 0px;
 }
 .detailshead {
     font-weight: 700;
@@ -124,13 +221,17 @@ text-decoration: none;
     text-transform: uppercase;
     color: var(--headcolor);
     font-size: 14px;
+    margin-bottom: 10px;
 }
 .detailstext {
     line-height: 1.71;
     color: var(--textcolorone);
 }
-.ourwork {
 
+/*-------------------------OUR WORK-----------------*/
+
+.ourwork {
+    padding-top: 0;
 }
 .workhead {
 font-weight: 700;
@@ -138,7 +239,20 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 color: var(--headcolor);
+margin-bottom: 50px;
 }
+.ourworklist {
+    text-align: center;
+}
+.ourwokkitem {
+    margin-right: 30px;
+}
+.ourwokkitemlast {
+    margin-right: 0;
+}
+
+/*----------------------------TEAM------------------*/
+
 .team {
     background-color: var(--bgcolortwo);
 
@@ -149,13 +263,22 @@ color: var(--headcolor);
     line-height: 1.17;
     text-align: center;
     color: var(--headcolor);
+    margin-bottom: 53px;
 }
 .teamlist{
-
+    text-align: center;
 }
 .teamitem{
     background-color: var(--maincolor);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-right: 30px;
 
+}
+.teamitemlast {
+    margin-right: 0;
 }
 .name{
     font-family: 'Roboto';
@@ -164,8 +287,8 @@ color: var(--headcolor);
     line-height: 1.19;
     text-align: center;
     color: var(--headcolor);
-
-
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .profession{
     font-family: 'Roboto';
@@ -174,9 +297,22 @@ color: var(--headcolor);
     line-height: 1.19;
     text-align: center;
     color: var(--textcolorone);
+    margin-bottom: 30px;
 }
-.portoliobtn{
 
+/*------------------------PORTFOLIO---------------------------*/
+
+.portoliobtn{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.portfoliobtnitem {
+    margin-right: 8px;
+}
+.portfoliobtnitemlast {
+    margin-right: 0;
 }
 .activepbtn{
     font-family: 'Roboto';
@@ -212,13 +348,26 @@ color: var(--headcolor);
 
 }
 .portfolioall{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
 
 }
 .portfolioallitem{
+        margin-left: 30px;
+        margin-top: 30px;
 
 }
 .allitemmenu{
     text-decoration: none;
+}
+.alltextsection {
+    border-left: 1px solid var(--border-color-two);
+    border-right: 1px solid var(--border-color-two);
+    border-bottom: 1px solid var(--border-color-two);
+    padding: 20px 24px;
+
 }
 .allhead{
     font-family: 'Roboto';

@@ -8,118 +8,137 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/modern-normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>portfolio</title>
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="WebStudio"> Web<span class="logotwo">Studio</span> </a>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="passivepage">Студия</a></li>
-                <li><a href="portfolio.html" class="activepage">Портфолио</a></li>
-                <li><a href="" class="passivepage">Контакты</a></li>
-    
+        <div class="header-content container list">
+            <a class="logo" href="WebStudio"> Web<span class="logotwo">Studio</span> </a>
+            <nav class="headernav">
+                <ul class="list">
+                    <li class="headernavitem"><a href="index.html" class="passivepage">Студия</a></li>
+                    <li class="headernavitem"><a href="portfolio.html" class="activepage">Портфолио</a></li>
+                    <li><a href="" class="passivepage">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="list headercontactlist">
+                <li><a href="mailto:info@devstudio.com" class="headermail">info@devstudio.com</a></li>
+                <li><a href="tel:0961111111" class="headerphone">096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com" class="headermail">info@devstudio.com</a></li>
-            <li><a href="tel:0961111111" class="headerphone">096 111 11 11</a></li>
-        </ul>
-        
-        
-    
+        </div>
     </header>
     <main>
-        <section>
-        <h1 hidden>portfolio</h1>
-        <ul class="portoliobtn">
-            <li><button type="button" class="activepbtn">Все</button></li>
-            <li><button type="button" class="passivepbtn">Веб-сайты</button></li>
-            <li><button type="button" class="passivepbtn">Приложения</button></li>
-            <li><button type="button" class="passivepbtn">Дизайн</button></li>
-            <li><button type="button" class="passivepbtn">Маркетинг</button></li>
+        <div class="container">
+        <section class="section">
+        <h1 class="visually-hidden">portfolio</h1>
+        <ul class="portoliobtn list">
+            <li class="portfoliobtnitem"><button type="button" class="activepbtn">Все</button></li>
+            <li class="portfoliobtnitem"><button type="button" class="passivepbtn">Веб-сайты</button></li>
+            <li class="portfoliobtnitem"><button type="button" class="passivepbtn">Приложения</button></li>
+            <li class="portfoliobtnitem"><button type="button" class="passivepbtn">Дизайн</button></li>
+            <li class="portfoliobtnitem portfoliobtnitemlast"><button type="button" class="passivepbtn">Маркетинг</button></li>
         </ul>
         <ul class="portfolioall">
             <li class="portfolioallitem">
                 <a href=""  class="allitemmenu">
                     <img src="images2/1.jpg" alt="" width="370">
-                    <h2 class="allhead">Технокряк</h2>
+                    <div class="alltextsection"><h2 class="allhead">Технокряк</h2>
                     <p class="alltext">Веб-сайт</p>
+                </div>                    
                 </a>
             </li>
             <li class="portfolioallitem">
                 <a href="" class="allitemmenu">
                     <img src="images2/2.jpg" alt="" width="370">
-                    <h2 class="allhead">Постер New Orlean vs Golden Star</h2>
-                    <p class="alltext">Дизайн</p>
+                    <div class="alltextsection">
+                        <h2 class="allhead">Постер New Orlean vs Golden Star</h2>
+                        <p class="alltext">Дизайн</p>
+                    </div>                    
                 </a>
             </li>
             <li class="portfolioallitem">
                 <a href="" class="allitemmenu">
                     <img src="images2/3.jpg" alt="" width="370">
-                    <h2 class="allhead">Ресторан Seafood</h2>
-                    <p class="alltext">Приложение</p>
+                    <div class="alltextsection">
+                        <h2 class="allhead">Ресторан Seafood</h2>
+                        <p class="alltext">Приложение</p>
+                    </div>                    
                 </a>
             </li>
             <li class="portfolioallitem">
                 <a href="" class="allitemmenu">
                     <img src="images2/4.jpg" alt="" width="370">
-                    <h2 class="allhead">Проект Prime</h2>
-                    <p class="alltext" >Маркетинг</p>
+                    <div class="alltextsection">
+                        <h2 class="allhead">Проект Prime</h2>
+                        <p class="alltext" >Маркетинг</p>
+                    </div>                    
                 </a>
             </li>
             <li class="portfolioallitem">
                 <a href="" class="allitemmenu">
                     <img src="images2/5.jpg" alt="" width="370">
-                    <h2 class="allhead">Проект Boxes</h2>
-                    <p class="alltext">Приложение</p>
+                    <div class="alltextsection">
+                        <h2 class="allhead">Проект Boxes</h2>
+                        <p class="alltext">Приложение</p>
+                    </div>                    
                 </a>
             </li>
             <li class="portfolioallitem">
                 <a href="" class="allitemmenu">
                     <img src="images2/6.jpg" alt="" width="370">
-                    <h2 class="allhead">Inspiration has no Borders</h2>
-                    <p class="alltext">Веб-сайт</p>
+                    <div class="alltextsection">
+                        <h2 class="allhead">Inspiration has no Borders</h2>
+                        <p class="alltext">Веб-сайт</p>
+                    </div>                    
                 </a>
             </li>
             <li class="portfolioallitem">
                 <a href="" class="allitemmenu">
                     <img src="images2/7.jpg" alt="" width="370">
-                    <h2 class="allhead">Издание Limited Edition</h2>
-                    <p class="alltext">Дизайн</p>
+                    <div class="alltextsection">
+                        <h2 class="allhead">Издание Limited Edition</h2>
+                        <p class="alltext">Дизайн</p>
+                    </div>                    
                 </a>
             </li>
             <li class="portfolioallitem">
                 <a href="" class="allitemmenu">
                     <img src="images2/8.jpg" alt="" width="370">
-                    <h2 class="allhead">Проект LAB</h2>
-                    <p class="alltext">Маркетинг</p>
+                    <div class="alltextsection">
+                        <h2 class="allhead">Проект LAB</h2>
+                        <p class="alltext">Маркетинг</p>
+                </div>                    
                 </a>
             </li>
             <li class="portfolioallitem">
                 <a href="" class="allitemmenu">
                     <img src="images2/9.jpg" alt="" width="370">
-                    <h2 class="allhead">Growing Business</h2>
-                    <p class="alltext">Приложение</p>
+                    <div class="alltextsection">
+                        <h2 class="allhead">Growing Business</h2>
+                        <p class="alltext">Приложение</p>
+                    </div>                    
                 </a>
             </li>
         </ul>
         </section>
+        </div>
     </main>
     <footer class="footer">
-        <a class="logo" href="WebStudio"> Web<span class="logothree">Studio</span></a>
-        <address>
-            <ul>
-                <li><p class="address">г. Киев, пр-т Леси Украинки, 26</p></li>
-                <li><a class="footermail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="footerphone" href="tel:0961111111">096 111 11 11</a></li>
-            </ul>
-            
-            
-            
-        </address>
-    
+        <div class="container">
+            <a class="logo footerlogo" href="WebStudio"> Web<span class="logothree">Studio</span></a>
+            <address>
+                <ul>
+                    <li>
+                        <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+                    </li>
+                    <li class="footermailitem"><a class="footermail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li><a class="footerphone" href="tel:0961111111">096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
     
 </body>
