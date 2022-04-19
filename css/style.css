@@ -32,10 +32,17 @@ h1, h2, h3, h4, h5, h6, ul, p{
 button{
     cursor: pointer;
 }
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .container{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .section{
     padding-top: 94px;
@@ -77,10 +84,11 @@ line-height: 1.19;
 color: var(--activecolor);
 text-decoration: none;
 margin-right: 93px;
+padding-top: 24px;
+padding-bottom: 25px;
 }
 .headernav {
     align-items: center;
-    margin: auto;
 }
 .headernavitem{
     margin-right: 50px;
@@ -94,6 +102,8 @@ margin-right: 93px;
     letter-spacing: 0.02em;
     color: var(--activecolor);
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .passivepage {
         font-weight: 500;
@@ -101,17 +111,21 @@ margin-right: 93px;
         letter-spacing: 0.02em;
         color: var(--headcolor);
         text-decoration: none;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 .headercontactlist{
-    margin-left: 331px;
-    margin: auto;
+    margin-left: auto;
 }
 .headermail,
 .headerphone {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--textcolorone)
+    color: var(--textcolorone);
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
 .headermail{
     margin-right: 50px;
@@ -134,13 +148,13 @@ margin-right: 93px;
 
 }
 .footerlogo{
-    
+    padding: 0;
 }
 .address {
     line-height: 1.71;
     color: var(--maincolor);
     font-style: normal;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 9px;
 }
 .footermailitem{
@@ -193,6 +207,7 @@ margin-right: 93px;
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    border: none;
 }
 .buttonone:hover,
 .buttonone:focus{
@@ -376,6 +391,7 @@ margin-bottom: 50px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--headcolor);
+    margin-bottom: 4px;
 
 }
 .alltext{
